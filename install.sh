@@ -1,3 +1,4 @@
+sudo apt install bzip2
 MINICONDA_INSTALLER_SCRIPT=Miniconda3-4.5.4-Linux-x86_64.sh
 MINICONDA_PREFIX=/usr/local
 wget https://repo.continuum.io/miniconda/$MINICONDA_INSTALLER_SCRIPT
