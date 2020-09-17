@@ -1,3 +1,4 @@
+echo "deb http://us.archive.ubuntu.com/ubuntu/ bionic universe" >>/etc/apt/sources.list
 apt install bzip2
 MINICONDA_INSTALLER_SCRIPT=Miniconda3-4.5.4-Linux-x86_64.sh
 MINICONDA_PREFIX=/usr/local
