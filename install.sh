@@ -9,4 +9,4 @@ chmod +x $MINICONDA_INSTALLER_SCRIPT
 conda install --channel defaults conda python=3.6 --yes
 conda update --channel defaults --all --yes
 conda env create -n qiime2-2020.8 --file qiime2-2020.8-py36-linux-conda.yml
-echo "conda init bash" | conda-shell
+conda init bash
